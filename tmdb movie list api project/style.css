@@ -1,0 +1,40 @@
+/* Reset some default browser styles */
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the form container */
+/* .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+/* Style labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style text inputs */
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
